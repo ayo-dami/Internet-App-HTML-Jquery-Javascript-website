@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ayo's Store</title>
+	<link rel="stylesheet" href="stylesheet/styles.css">
+	<script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+<!--Navigation-->
+<ul class="nav">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="product/devices.xml">Products</a></li>
+	<li><a href="order.html">Order</a></li>
+	<li><a href="report.html">Report</a></li>
+	</ul>
+
+<!--header-->
+<div id="header">
+	<div class="title">Ayo's <br>Electronic World</br></div>
+	<div class="title-sub">The Number one online store.</div>
+	<img src="img/stars.png" height="25"/>
+</div>
+
+<div id="top"><!-- <img src="img/home.png" width="25px" height="20px"/>  -->Report  </div>
+
+<!-- content --> <div id="container" style="text-align: left; padding: 40px 40px; width:1250px;"> 
+<h1>     Disclaimer </h1> <p>     I,
+Ayodamola Ajibola N0590642 hereby declare that I am the sole author of     the
+associated report and website. I am aware of the University’s rules on
+plagiarism and collusion and I understand that, if I am found to have
+broken these rules, it will be treated as Academic Misconduct and dealt
+with accordingly. I understand that I must submit this coursework by the
+time and date published. I understand that it is entirely my responsibility
+to ensure that I submit my full and complete coursework and that any
+missing elements submitted after the deadline will be disregarded. </p> <p>
+I understand that the above rules apply even in the eventuality of computer
+or other information technology failures. </p> <h1>     Introduction </h1> <p>
+This report contains the stages that were required to achieving an
+effective static website that met the specification for the Internet
+Application Protocol module. The purpose of this module was to develop
+responsive static website that used HTML, CSS, XML, JavaScript and the
+possible use of other query languages like jQuery to enhance the quality of
+the website. </p> <h1>     Planning </h1> <p>     My webpage consists of a
+navigation that links between HTML, XML and     JavaScript pages. </p> <ul>
+<li>         <strong>             Navigation, Structure (nav top, header,
+slideshow, content)         </strong>         <br/>         The navigation bar
+was developed using HTL and CSS. It uses a href link         that opens up the
+page that it’s linked to.<br> A few media query were used         to enable the
+navigation to be responsive.<strong></strong>     </li>     <li>
+<strong> The header image has
+a background that has been blurred and burnt             using Photoshop with
+heading text and         </strong>     </li> </ul> <h2>     Designing Slider
+</h2> <p>     The following diagram below shows the planning phase of my
+slideshow. While     developing the slideshow I had to improve on what I was
+taught during the     lecture and labs. My slideshow consists of a variables
+that stores integers     and strings in arrays that hold the position of both
+the caption and image     files. I created a set image function that ran
+through the array selecting     the position of each image in the root folder,
+storing and then displaying     it in a HTML tag. </p> <p>     I used a
+similar system to create my thumbnails by creating a variable that     changed
+the value of the while being clicked. To ensure my slider ran
+automatically I used a set interval function to move between the images. At
+first this was hard because the variables wouldn’t display the images in
+HTML or it would move to the wrong position in the array. After gaining
+good enough of an understand on how to implement the change in position of
+the array, I went on to further develop features that would move to the
+start, end and select a random image in the thumbnail using the
+“math.random()” function. </p> <h1>     Implemented Functionality </h1> <h2>
+Slide show </h2> <p>     <br/>     The logic behind the development of a
+slideshow wasn’t new to me as I     understood what was expected when it was
+introduced during labs and     lectures, but the further development of adding
+captions and thumbnails     were. While developing my slide show I upgraded
+the knowledge I obtained     during lectures and labs then expanded on the
+development. </p>
+ <h2>     XML page </h2> <p>    
+
+<figure style="display:table; float:right; ">
+<img src="img/colorscheme.png" width="400"  />
+<figcaption style=" display: table-caption;
+  caption-side: bottom;"> Color scheme that motivated me to use this theme</figcaption>
+</figure>
+
+
+
+ I used XSL/XSLT to style the
+contents of my XML page. The XSL consisted a     styles sheet and JavaScript
+files that were used to develop styles to     ensure the page maintains its
+fluid responsiveness. Furthermore I used     xPath and XQuery within the XSL
+page to make queries that selected     specifics tags within the XML page.
+Also I made further implementations     that used mathematical logic to
+selective display tags from the XML page.     An example would the use of &lt;
+and &gt; symbols to decide the products     being displayed from the XML file
+depending if it’s less than 500 pounds.     My XML page displays the
+navigation and the header properly and maintains     responsiveness for
+multiply devices. Underneath the header it displays     featured products and
+their prices using XML, XSL, xPath and CSS. After the     featured page there
+are products being displayed depending if they are less     than or greater
+than a certain value.
+ </p> <p>     At the end of my XML page I have two
+sections that display other products     using a mixture of XQuery and
+JavaScript. I developed a slider that     horizontally shows a list of the
+available products, by displaying their     “title”, “year” and price. Left
+and right buttons were added to move     between the products. </p> <p>
+Furthermore I did a query that displayed all the available products in an
+archive method but unfortunately time did not permit me to full complete
+the functionality of this section. My aim was to have a table that if the
+user’s inputs a range of condition it would highlight the product depending
+the condition the user input. </p> <p>     In addition the benefits of using
+XSL is that unlike XML is allows HTML     tags and it works well with CSS and
+JavaScript tags. XML is a very     difficult language to work with because
+it’s strict and doesn’t really     provide a lot of features to develop an
+efficient website. </p> <h2>     Responsive Stylesheet </h2> <p>     The
+styling of the website was made responsive by using google chrome to     test
+how it would look when resized. It was a long process and required. </p> <h2>
+Reasoning behind Website design </h2> <p>    
+<figure style="display:table; float:left; ">
+<img src="img/nike.jpg" width="400"  />
+<figcaption style=" display: table-caption;
+  caption-side: bottom;"> Nike Dunk CMFT, Colour scheme that inspired the website styling</figcaption>
+</figure>
+While developing my website I
+was inspired by the Nike Dunk CMFT off-whites     collaboration edition,
+mostly because the black brings out the red making     the style and fashion
+very distinctive eye catching and memorable. As a web     developer my main is
+to develop a websites and application that are     attractive but also unique.
+This style uses two colours and some maybe     consider not compatible but due
+to its unorthodox distinctiveness it’s     become a very memorable design. I
+used red, more specifically “B93A32 “ and     black “#000000” as the two main
+distinctive styles implemented within my     website. There are also shades of
+grey and white to make the website     distinctive. </p> <p>     The colour
+pallet below shows a popular combination of colours that     consists or red,
+black, yellow and purple. Although I didn’t implement any     use of purple
+within my website I’m happy with knowing that the use of red,     black and
+orange are popular themes among other web designers.
+     While developing my website I came across a lot of challenges
+within the     validation stage of the development. Although I had a small
+understanding     of JavaScript implementing my acquired knowledge was more
+stressful than     expected. I overcame this issue by attending the labs to
+practise as much     as possible and used a lot of books to gain outside
+knowledge. </p><br /> <p>     The first issue I came across while developing this
+website occurred when I     tried to use JavaScript to create a slideshow. I
+understood the logic     required to complete this task from the labs and
+lecture but while I tried     implementing it certain functions within the
+JavaScript while weren’t     working. I solved this issue by using the google
+chrome console mode to do     a lot of error checking and realised it was
+mostly missing semicolons, lack     of closing braces and not declaring
+variables properly. </p> <p>     Furthermore, I experienced a lot of
+challenges while trying to developing     the thumbnails mostly because I had
+to return a lot of values from the     JavaScript to be displayed and styles
+using HTML plus CSS. </p> <p>     Secondly, I found the use of form validation
+to be simple and straight     forward to I did a lot experimenting to push and
+challenge myself to ensure     my checkout had similar features to an actually
+ecommerce or shopping     website. </p> <p>     Developing the captcha was
+very challenging to the point that I felt like     not completing it or using
+captcha API. But after making improvements to     other parts of my website I
+learnt how to generate random values while     developing a function that
+would display a random image within my     slideshow. I used this logic with a
+lot of with a lot of teaching materials     on the w3school website I was able
+to figure out to implement a functioning     captcha. </p>  <h1>     Testing </h1> <p>
+
+While developing using JavaScript to develop this website I encountered a
+lot of errors that prevented some features from functioning. This caused me
+to conduct multiply tests that ensured the functionality and usability of
+the website met the requirements. </p> <p>     The table below contains the
+test that were done to ensure the website     functioned as required: </p>
+
+<figure style="display:table; float:right; ">
+<img src="img/test1.png" width="150"  />
+<figcaption style=" display: table-caption;
+  caption-side: bottom;">Testing Product Page </figcaption>
+</figure>
+<figure style="display:table; float:right; ">
+<img src="img/test2.png" width="170"   />
+<figcaption style=" display: table-caption;
+  caption-side: bottom;">Testing shopping page </figcaption>
+</figure>
+<table border="1" cellspacing="0" cellpadding="0" >     <tbody>         <tr>
+<td width="141" valign="top">                 <p>                     Test
+</p>             </td>             <td width="259" valign="top">
+<p>                     Expected result                 </p>             </td>
+<td width="200" valign="top">                 <p>                     Actual
+result                 </p>             </td>         </tr>         <tr>
+<td width="141" valign="top">                 <p>                     Navbar
+goes to the right pages                 </p>             </td>             <td
+width="259" valign="top">                 <p>                     Its expected
+for the navigation to take the user to the                     selected page.
+Clicking on “Order” on the Navigation should                     take the user
+to the order page                 </p>             </td>             <td
+width="200" valign="top">                 <p>                     Worked as
+expected, the navigation linked to the right                     pages.
+</p>             </td>         </tr>         <tr>             <td width="141"
+valign="top">                 <p>                     The Slideshow runs
+automatically                 </p>             </td>             <td
+width="259" valign="top">                 <p>                     This didn’t
+work as expected. The slideshow didn’t slide
+automatically.                 </p>             </td>             <td
+width="200" valign="top">                 <p>                     Set interval
+function was used to run the slideshow on page                     start
+</p>             </td>         </tr>         <tr>             <td width="141"
+valign="top">                 <p>                     Test thumbnail goes to
+the right position and display the                     right file
+</p>             </td>             <td width="259" valign="top">
+<p>                     Selected image on the thumbnail should display the
+right                     image                 </p>             </td>
+<td width="200" valign="top">                 <p>
+Thumbnail didn’t display he right images. A few conditions
+within the set image function had to be changed                 </p>
+</td>         </tr>         <tr>             <td width="141" valign="top">
+<p>                     Validation displayed errors if users failed certain
+input                     methods                 </p>             </td>
+<td width="259" valign="top">                 <p>                     The
+validation should fail if users fail to input data
+correctly                 </p>             </td>             <td width="200"
+valign="top">                 <p>                     All conditions had to be
+met before users input could be                     validated
+</p>             </td>         </tr>         <tr>             <td width="141"
+valign="top">                 <p>                     Report was successfully
+displayed on the webpage                 </p>             </td>
+<td width="259" valign="top">                 <p>                     The
+report should be displayed well on the web page                 </p>
+</td>             <td width="200" valign="top">                 <p>
+No few changes had to be made to ensure the report was
+successfully displayed.                 </p>             </td>         </tr>
+<tr>             <td width="141" valign="top">                 <p>
+Output file for users to download                 </p>             </td>
+<td width="259" valign="top">                 <p>                     After
+the validation was complete users should be able to
+download a receipt                 </p>             </td>             <td
+width="200" valign="top">                 <p>                     Users could
+download a receipt after the validation was                     completed.
+</p>             </td>         </tr>     </tbody> </table> 
+<br clear="all"/> </p> <h1>     Conclusion </h1>
+<p>     In
+conclusion, because this was my first time ever using XML I found it very
+frustrating because its method of development to complete certain tasks
+required a lot of coding in comparison to other web development languages
+that completed the same tasks like PHP and SQL. One of the first problems I
+had with XML was trying to style it. This was because the web page wouldn’t
+display if an error occurred and most compiling errors in the console never
+really identified the issue preventing the web page from displaying. After
+learning XSTL and fairly understanding the fundaments required to
+converting XML to HTML by styling with XSL and CSS my experience with XML
+went a lot smoother. </p>
+</div>
+<!-- footer-->
+<div id="footer">
+	© Copyright Ayo Web store 2017
+</div>	
+</body>
+</html>
